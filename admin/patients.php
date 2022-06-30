@@ -1,0 +1,46 @@
+﻿<?php
+  include('index.php');
+?>
+
+
+<section class="content patients">
+    <div class="container-fluid">
+        <div class="block-header">
+            <h2>All Patients</h2>
+            <small class="text-muted">Welcome to Care application</small>
+        </div>
+        <div class="row clearfix">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card all-patients">
+                    <div class="body">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4 text-center m-b-0">
+                                <a href="javascript:void(0);" class="p-profile-pix"><img src="http://via.placeholder.com/130x130" alt="user" class="img-thumbnail img-fluid"></a>
+                            </div>
+                            <div class="col-md-8 col-sm-8 m-b-0">
+                                <h5 class="m-b-0">Johnathan Doe <a href="javascript:void(0);" class="edit"><i class="zmdi zmdi-edit"></i></a></h5> <small>Cardio</small>
+                                <address class="m-b-0">
+                                    123 Folsom Ave, Suite 100 New York, CADGE 56824<br>
+                                    <abbr title="Phone">P:</abbr> (123) 456-7890
+                                </address>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="color-bg"></div>
+<!-- Jquery Core Js --> 
+<script src="assets/bundles/libscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js -->
+ 
+<script src="assets/bundles/vendorscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js --> 
+
+<script src="assets/bundles/mainscripts.bundle.js"></script><!-- Custom Js -->
+
+</body>
+
+<!-- Mirrored from thememakker.com/templates/swift/hospital/patients.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Sep 2021 01:04:36 GMT -->
+</html>
